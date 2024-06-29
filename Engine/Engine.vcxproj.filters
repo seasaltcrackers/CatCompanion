@@ -1,0 +1,650 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{17f5b451-21b4-4c23-a77f-26114d0c7e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Helper">
+      <UniqueIdentifier>{282c52d4-5a9c-4cd7-ab42-e96daa147432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{5e0081e4-a6ac-4f6d-be94-2a621e911a09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Sprite">
+      <UniqueIdentifier>{b2b8b3de-ec97-437c-847a-833f028d3081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Object">
+      <UniqueIdentifier>{abbdd233-0ef9-40af-9457-947ec48b7386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Input">
+      <UniqueIdentifier>{64220bdb-4b37-480d-8b1e-e90d290ab56b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Mesh">
+      <UniqueIdentifier>{08f1cd98-aae3-4414-a392-21b950fd2bc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Program">
+      <UniqueIdentifier>{7c1238c1-5285-483e-97c9-0207be68ceb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Texture">
+      <UniqueIdentifier>{9e037649-c065-4b30-982e-db91366851db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Sound">
+      <UniqueIdentifier>{2114f441-a74e-4c19-bf11-57987f4d4654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{edcbf105-915d-4a2f-9e31-09be81771a18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision\BoundingBox">
+      <UniqueIdentifier>{802f50b3-a7f6-4462-bb02-88ac4209635f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Graphics">
+      <UniqueIdentifier>{58f03ed9-c915-476f-893f-e335b70905b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Timer">
+      <UniqueIdentifier>{cdab47a8-41af-469f-aede-7d171d95eafd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Manager">
+      <UniqueIdentifier>{b82495f8-a354-46e7-b6b8-b85c276b13db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cameras">
+      <UniqueIdentifier>{fde93388-f80c-424b-9863-ad0113d15e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cameras\BaseCamera">
+      <UniqueIdentifier>{beb32b8b-00fe-44a7-8e3a-e2cadeb0e8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cameras\Camera2D">
+      <UniqueIdentifier>{01b35e1f-cb46-4bba-895d-0c0f00095089}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cameras\Camera3D">
+      <UniqueIdentifier>{7081091e-32fc-459a-b38d-5138c452c222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cameras\CameraRoatate3D">
+      <UniqueIdentifier>{db6585ad-1da8-4d6a-8a77-410a1d3b5293}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cameras\FollowCamera2D">
+      <UniqueIdentifier>{22c0a182-daaf-4b7a-ae8a-45355c3282ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Font">
+      <UniqueIdentifier>{377d1eb6-39a5-453c-8a5e-9b49e172421e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Room">
+      <UniqueIdentifier>{809b1507-a2bb-47b8-ba4e-91f48dd88d95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers">
+      <UniqueIdentifier>{5fc32f05-81e7-40d9-80bc-c0a5b95a4f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers\Base Layer">
+      <UniqueIdentifier>{cef57f51-87ad-43df-a60f-4a052f89eb82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers\Instance Layer">
+      <UniqueIdentifier>{85704cac-19a1-4121-b8b0-030da4d0ca9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers\Background Layer">
+      <UniqueIdentifier>{61498d40-e261-4725-bbb0-7a10f5fcbe2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers\Particle Layer">
+      <UniqueIdentifier>{d972f826-ea9d-4863-9c89-6be00ace4228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers\Tilemap Layer">
+      <UniqueIdentifier>{1fefe9ff-17ac-494d-8000-9450f5964848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Particle">
+      <UniqueIdentifier>{8223c793-34ef-42f2-88af-d64380de1f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{361d6df8-d74d-4ffc-9f09-c437084a918b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Button">
+      <UniqueIdentifier>{23e4e170-bcf8-4e33-bb05-0d5610850afa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Model">
+      <UniqueIdentifier>{db6730d6-20dd-4f12-bf2d-78127f16a7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\ModelMesh">
+      <UniqueIdentifier>{813b71e7-c7dc-4d5c-9fe2-5c01afbe7039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\TextBox">
+      <UniqueIdentifier>{15a21d90-f4d5-4714-8545-1a27a7734abb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Slider">
+      <UniqueIdentifier>{68cd5791-415b-4a87-9f73-9328de52774a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Label">
+      <UniqueIdentifier>{b4929061-122d-480a-9bc7-072e3c2453b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers\3D Particle Layer">
+      <UniqueIdentifier>{b363ce17-61a8-4b01-9d13-5437fe84e1eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI\Control">
+      <UniqueIdentifier>{19181a7a-9f99-4000-b880-93457a110809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Perlin Noise">
+      <UniqueIdentifier>{bdb36949-8108-435f-9371-b6b1a5def6d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cameras\FirstPersonCamera3D">
+      <UniqueIdentifier>{a86cdc5d-9e3e-47b5-8c88-df03ab662876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\MeshArray">
+      <UniqueIdentifier>{2045a22d-650d-467c-bd53-fef11dae6179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers\GUI Layer">
+      <UniqueIdentifier>{c2f3f23b-3abf-4713-8183-fac5073cd34b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Terrain">
+      <UniqueIdentifier>{64fb70b9-27dd-4944-a7ef-378dbe425974}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{5a7b41cd-e790-4ef6-8d0a-7a973e06dd80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\FBO Object">
+      <UniqueIdentifier>{6c2bfaa9-b991-4aca-9f01-a08e4776bec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Uniform Manager">
+      <UniqueIdentifier>{64c2a1a7-7d18-4859-801c-d9fb936f0210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\ColourPicker">
+      <UniqueIdentifier>{e7bda9e8-b3f3-4836-b364-131a084d5b57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers\GPU 2D Particle Layer">
+      <UniqueIdentifier>{fea85ef0-e428-4b99-a819-c4b3c18ce5ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Layers\Textured Particle Layer">
+      <UniqueIdentifier>{ada17648-24c2-43c9-ba7a-0d47e11301f3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\helper.cpp">
+      <Filter>Utility\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mesh.cpp">
+      <Filter>Objects\Mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\object.cpp">
+      <Filter>Objects\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\program.cpp">
+      <Filter>Objects\Program</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sprite.cpp">
+      <Filter>Objects\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\input.cpp">
+      <Filter>Utility\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texture.cpp">
+      <Filter>Objects\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="src\soundManager.cpp">
+      <Filter>Utility\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\boundingBox.cpp">
+      <Filter>Collision\BoundingBox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\timer.cpp">
+      <Filter>Utility\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphics.cpp">
+      <Filter>Utility\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particle.cpp">
+      <Filter>Objects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\manager.cpp">
+      <Filter>Utility\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera.cpp">
+      <Filter>Objects\Cameras\BaseCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cameraFollow.cpp">
+      <Filter>Objects\Cameras\FollowCamera2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera2D.cpp">
+      <Filter>Objects\Cameras\Camera2D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camera3D.cpp">
+      <Filter>Objects\Cameras\Camera3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cameraRotate3D.cpp">
+      <Filter>Objects\Cameras\CameraRoatate3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\font.cpp">
+      <Filter>Objects\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="src\room.cpp">
+      <Filter>Utility\Room</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backgroundLayer.cpp">
+      <Filter>Utility\Layers\Background Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\instanceLayer.cpp">
+      <Filter>Utility\Layers\Instance Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particleLayer.cpp">
+      <Filter>Utility\Layers\Particle Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tilemapLayer.cpp">
+      <Filter>Utility\Layers\Tilemap Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\button.cpp">
+      <Filter>GUI\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="src\model.cpp">
+      <Filter>Objects\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="src\modelMesh.cpp">
+      <Filter>Objects\ModelMesh</Filter>
+    </ClCompile>
+    <ClCompile Include="src\textBox.cpp">
+      <Filter>GUI\TextBox</Filter>
+    </ClCompile>
+    <ClCompile Include="src\slider.cpp">
+      <Filter>GUI\Slider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\label.cpp">
+      <Filter>GUI\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particle3D.cpp">
+      <Filter>Objects\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="src\particleLayer3D.cpp">
+      <Filter>Utility\Layers\3D Particle Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\guiControl.cpp">
+      <Filter>GUI\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="src\perlinNoise.cpp">
+      <Filter>Utility\Perlin Noise</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cameraFirsPerson.cpp">
+      <Filter>Objects\Cameras\FirstPersonCamera3D</Filter>
+    </ClCompile>
+    <ClCompile Include="src\meshArray.cpp">
+      <Filter>Objects\MeshArray</Filter>
+    </ClCompile>
+    <ClCompile Include="src\guiLayer.cpp">
+      <Filter>Utility\Layers\GUI Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\terrain.cpp">
+      <Filter>Objects\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fboObject.cpp">
+      <Filter>Utility\FBO Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\uniformManager.cpp">
+      <Filter>Utility\Uniform Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\colourPicker.cpp">
+      <Filter>Objects\ColourPicker</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gpu2DParticleLayer.cpp">
+      <Filter>Utility\Layers\GPU 2D Particle Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\texturedParticleLayer.cpp">
+      <Filter>Utility\Layers\Textured Particle Layer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\helper.h">
+      <Filter>Utility\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mesh.h">
+      <Filter>Objects\Mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\object.h">
+      <Filter>Objects\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\program.h">
+      <Filter>Objects\Program</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sprite.h">
+      <Filter>Objects\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\input.h">
+      <Filter>Utility\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texture.h">
+      <Filter>Objects\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="src\soundManager.h">
+      <Filter>Utility\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\boundingBox.h">
+      <Filter>Collision\BoundingBox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\timer.h">
+      <Filter>Utility\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphics.h">
+      <Filter>Utility\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particle.h">
+      <Filter>Objects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\manager.h">
+      <Filter>Utility\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera.h">
+      <Filter>Objects\Cameras\BaseCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cameraFollow.h">
+      <Filter>Objects\Cameras\FollowCamera2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera2D.h">
+      <Filter>Objects\Cameras\Camera2D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\camera3D.h">
+      <Filter>Objects\Cameras\Camera3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cameraRotate3D.h">
+      <Filter>Objects\Cameras\CameraRoatate3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\font.h">
+      <Filter>Objects\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="src\room.h">
+      <Filter>Utility\Room</Filter>
+    </ClInclude>
+    <ClInclude Include="src\layer.h">
+      <Filter>Utility\Layers\Base Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backgroundLayer.h">
+      <Filter>Utility\Layers\Background Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\instanceLayer.h">
+      <Filter>Utility\Layers\Instance Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particleLayer.h">
+      <Filter>Utility\Layers\Particle Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tilemapLayer.h">
+      <Filter>Utility\Layers\Tilemap Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\button.h">
+      <Filter>GUI\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="src\model.h">
+      <Filter>Objects\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="src\modelMesh.h">
+      <Filter>Objects\ModelMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="src\textBox.h">
+      <Filter>GUI\TextBox</Filter>
+    </ClInclude>
+    <ClInclude Include="src\slider.h">
+      <Filter>GUI\Slider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\label.h">
+      <Filter>GUI\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particle3D.h">
+      <Filter>Objects\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="src\particleLayer3D.h">
+      <Filter>Utility\Layers\3D Particle Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\guiControl.h">
+      <Filter>GUI\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="src\perlinNoise.h">
+      <Filter>Utility\Perlin Noise</Filter>
+    </ClInclude>
+    <ClInclude Include="src\cameraFirstPerson.h">
+      <Filter>Objects\Cameras\FirstPersonCamera3D</Filter>
+    </ClInclude>
+    <ClInclude Include="src\meshArray.h">
+      <Filter>Objects\MeshArray</Filter>
+    </ClInclude>
+    <ClInclude Include="src\guiLayer.h">
+      <Filter>Utility\Layers\GUI Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\terrain.h">
+      <Filter>Objects\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="src\fboObject.h">
+      <Filter>Utility\FBO Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\uniformManager.h">
+      <Filter>Utility\Uniform Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\colourPicker.h">
+      <Filter>Objects\ColourPicker</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gpu2DParticleLayer.h">
+      <Filter>Utility\Layers\GPU 2D Particle Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="src\texturedParticleLayer.h">
+      <Filter>Utility\Layers\Textured Particle Layer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Shaders\Basic.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\BasicLighting.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\BLFog.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\BLRimLight.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\BLSpecular.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\BLSpecularBP.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\BoundrySubTexture.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\BoundrySubTexture.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Colour.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\CubeMap.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\CubeMap.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Fog.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Fog.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\FogColour.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\FogColour.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Grass.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Grass.gs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Grass.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\GrassV2.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\GrassV2.gs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\GrassV2.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Model.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Model.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Reflection.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Reflection.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\SpriteSheet.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Star.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Star.gs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Star.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\SubTexture.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Text.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Text.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Texture.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TextureMix.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TextureScroll.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TextureZoom.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TessellateQuad.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TessellateQuad.tcs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TessellateQuad.tes">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TessellateQuad.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TessellateTriangle.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TessellateTriangle.tcs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TessellateTriangle.tes">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\TessellateTriangle.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Chromatical.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Terrain.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Terrain.gs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Terrain.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\LodTerrain.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\LodTerrain.tcs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\LodTerrain.tes">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\LodTerrain.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ParticleCompute.cs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ParticleRender.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ParticleRender.gs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ParticleRender.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ShadowPass.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ShadowPass.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ShadowPassTerrain.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ShadowPassTerrain.tcs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ShadowPassTerrain.tes">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ShadowPassTerrain.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ShadowPostPass.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ShadowPostPass.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\AnimatedModel.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\AnimatedModel.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\AnimatedModelShadowPass.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\AnimatedModelShadowPass.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Cat.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ColourHue.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\ColourSatVal.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\Ring.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\2DParticle.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\2DParticle.gs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\2DParticle.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="..\Resources\Shaders\2DParticleCompute.cs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

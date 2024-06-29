@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Misc Files">
+      <UniqueIdentifier>{3386803c-e4f2-4f20-b9bd-0799dd51ff2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{1db96b09-d053-4010-8488-3eeed2aeec43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Focus Manager">
+      <UniqueIdentifier>{d0fac3ac-17f2-4cb4-a457-0425e7d1e4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Monitor Manager">
+      <UniqueIdentifier>{bd7640c5-1b8e-41e9-9867-4369053c17ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Windows Manager">
+      <UniqueIdentifier>{53edfa2b-2aeb-402d-ad39-371dbcbf3222}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{c9ddd785-c8bf-49e9-9428-a46b5357d73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Exit Object">
+      <UniqueIdentifier>{854e56d5-4120-4435-95eb-05886b08543c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cat">
+      <UniqueIdentifier>{8b554307-c471-4eaa-ad91-d34e5c1999c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cat\Actions">
+      <UniqueIdentifier>{eaa09c2c-1c78-40c8-927a-fd3df94b8edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Configs">
+      <UniqueIdentifier>{ff2e5d0f-7d8c-465a-9b50-3950201d7eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Core Tilemap">
+      <UniqueIdentifier>{6d99228d-0701-44e8-b57a-a75b76fb2a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Cat Properties Window">
+      <UniqueIdentifier>{2ac3ac96-c05f-43e0-8edd-c17fa696b78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\DetailsWindow">
+      <UniqueIdentifier>{bafb81bb-7635-4081-a3cb-382cef8eed79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Helper">
+      <UniqueIdentifier>{e5009f5d-2429-4fc2-bd08-e682965dc995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Files">
+      <UniqueIdentifier>{282373c7-a5e6-49b0-8bb9-6f58ead08a91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Files\Main">
+      <UniqueIdentifier>{831dc888-6c8b-4d6d-a3b5-eff436e73c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main Files\Scene">
+      <UniqueIdentifier>{4fda9900-7130-401b-8385-781e7a696d25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Demo Sprite">
+      <UniqueIdentifier>{58095437-6cd0-46f5-b51c-8aafdf7acf96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers\Cat Manager">
+      <UniqueIdentifier>{3d845da8-06e7-4985-a540-173f06530f6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\cat.h">
+      <Filter>Objects\Cat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\windowsManager.h">
+      <Filter>Managers\Windows Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\monitorManager.h">
+      <Filter>Managers\Monitor Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\focusManager.h">
+      <Filter>Managers\Focus Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exitObject.h">
+      <Filter>Objects\Exit Object</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scene.h">
+      <Filter>Main Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\catHelper.h">
+      <Filter>Managers\Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="src\actions.h">
+      <Filter>Objects\Cat\Actions</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CatWindow.h">
+      <Filter>Main Files\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="src\detailsWindow.h">
+      <Filter>Objects\DetailsWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coreTilemap.h">
+      <Filter>Objects\Core Tilemap</Filter>
+    </ClInclude>
+    <ClInclude Include="src\configs.h">
+      <Filter>Managers\Configs</Filter>
+    </ClInclude>
+    <ClInclude Include="src\framework.h">
+      <Filter>Misc Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Misc Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\catPropertiesWindow.h">
+      <Filter>Objects\Cat Properties Window</Filter>
+    </ClInclude>
+    <ClInclude Include="src\demoSprite.h">
+      <Filter>Objects\Demo Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="src\catManager.h">
+      <Filter>Managers\Cat Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="src\resource.h">
+      <Filter>Misc Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\cat.cpp">
+      <Filter>Objects\Cat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CatWindow.cpp">
+      <Filter>Main Files\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="src\actions.cpp">
+      <Filter>Objects\Cat\Actions</Filter>
+    </ClCompile>
+    <ClCompile Include="src\catHelper.cpp">
+      <Filter>Managers\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="src\configs.cpp">
+      <Filter>Managers\Configs</Filter>
+    </ClCompile>
+    <ClCompile Include="src\coreTilemap.cpp">
+      <Filter>Objects\Core Tilemap</Filter>
+    </ClCompile>
+    <ClCompile Include="src\detailsWindow.cpp">
+      <Filter>Objects\DetailsWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scene.cpp">
+      <Filter>Main Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\windowsManager.cpp">
+      <Filter>Managers\Windows Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exitObject.cpp">
+      <Filter>Objects\Exit Object</Filter>
+    </ClCompile>
+    <ClCompile Include="src\focusManager.cpp">
+      <Filter>Managers\Focus Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\monitorManager.cpp">
+      <Filter>Managers\Monitor Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="src\catPropertiesWindow.cpp">
+      <Filter>Objects\Cat Properties Window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\demoSprite.cpp">
+      <Filter>Objects\Demo Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="src\catManager.cpp">
+      <Filter>Managers\Cat Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CatCompanion.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="CatCompanion.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

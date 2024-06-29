@@ -1,0 +1,2 @@
+f3-debug: enabled
+monitors: auto

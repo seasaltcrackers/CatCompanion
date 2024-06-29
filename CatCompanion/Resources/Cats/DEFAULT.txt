@@ -1,0 +1,10 @@
+max-jump-height: 400.000000
+scale: 2.000000
+walk-speed: 35.000000
+colours[1]: #da6666
+colours[2]: #787878
+colours[3]: #c6c6c6
+colours[4]: #5a5a5a
+colours[5]: #1f1f1f
+colours[6]: #f7cede
+name: 
