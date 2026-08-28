@@ -79,8 +79,13 @@ CCat::CCat(CCatManager* parent, CConfigs* configs, glm::vec2 location) :
 	float scale = Configs->GetFloatVariable("scale");
 
 	Offset = glm::vec3();
+
 	Location = glm::vec3(location, 0.0f);
+
+	Velocity = glm::vec2(0.0f);
+
 	Scale = glm::vec3(scale, scale, 1.0f);
+
 	Acceleration = glm::vec2(0.0f, 5000.0f);
 	FloorY = Location.y;
 
@@ -89,6 +94,7 @@ CCat::CCat(CCatManager* parent, CConfigs* configs, glm::vec2 location) :
 
 	CurrentAction = nullptr;
 	CurrentState = CatState::Sitting;
+	CurrentWindow = NULL;
 
 	IconObject = nullptr;
 	Parent = parent->Parent;
@@ -375,8 +381,8 @@ void CCat::UpdatePhysics()
 		WindowCollision();
 		ConfineToMonitors();
 
-		glm::vec3 locA = HELPER::RoundToPlaces(Location, 1);
-		glm::vec3 locB = HELPER::RoundToPlaces(oldLocation, 1);
+		glm::vec3 locA = HELPER::RoundToPlaces(Location, 4);
+		glm::vec3 locB = HELPER::RoundToPlaces(oldLocation, 4);
 
 		Velocity *= glm::vec2(1.0f - glm::abs(glm::sign(locA - locB)));
 
